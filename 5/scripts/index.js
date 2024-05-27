@@ -1,1 +1,0 @@
-var o=document.querySelector(".logo-container__toggle"),t=document.querySelector(".navigation__list");o.onclick=function(){t.classList.toggle("navigation__list--hidden"),o.classList.toggle("logo-container__toggle--closed"),o.classList.toggle("logo-container__toggle--opened")};
