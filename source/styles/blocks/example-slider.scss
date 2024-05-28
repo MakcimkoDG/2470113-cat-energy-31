@@ -7,7 +7,6 @@
   @media (min-width: $tablet-width) {
     width: 560px;
     height: 512px;
-    flex-basis: 100%;
   }
 
   @media (min-width: $desktop-width) {
@@ -20,31 +19,31 @@
 
 .example-slider__img {
   width: 280px;
+  height: 100%;
   aspect-ratio: 280 / 256 auto;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     width: 560px;
-    height: 512px;
-    margin: 0 auto;
+    height: 100%;
   }
 }
 
 .example-slider__img--fat {
   position: absolute;
-  display: block;
+  display: flex;
   overflow: hidden;
-  clip-path: xywh(00% 0 50% 100%);
-  left: 50%;
-  transform: translate(-50%, 0);
+  width: 50%;
+  justify-content: left;
 }
 
 .example-slider__img--slim {
   position: absolute;
-  display: block;
+  display: flex;
   overflow: hidden;
-  clip-path: xywh(50% 0 50% 100%);
-  left: 50%;
-  transform: translate(-50%, 0);
+  width: 50%;
+  transform: translate(100%, 0);
+  justify-content: right;
 }
 
 .example-slider__button {

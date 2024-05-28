@@ -126,10 +126,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 3px;
+  position: relative;
+  left: -12px;
+  top: -5px;
 
   @media (min-width: $tablet-width) {
     order: 4;
-    position: relative;
     top: -83px;
     margin-bottom: 0;
     width: 709px;
