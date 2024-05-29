@@ -36,7 +36,7 @@
   width: 128px;
   height: 24px;
   box-sizing: border-box;
-  mask-image: url("../../images/logo.svg");
+  mask-image: url("../../images/logo-text-mobile.svg");
   mask-size: 100%;
   background-color: $logo-color;
   mask-repeat: no-repeat;
@@ -53,7 +53,8 @@
   }
 }
 
-.footer__logo:hover {
+.footer__logo:hover,
+.footer__logo:focus {
   background-color: #3e3e3e;
 }
 

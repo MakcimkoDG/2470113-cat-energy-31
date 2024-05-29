@@ -16,7 +16,8 @@
   background-color: #666666;
 }
 
-.social-list__link:hover {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: $secondary-color;
 }
 
@@ -26,16 +27,16 @@
 }
 
 .social-list__link--yt {
-  mask-image: url("../../icons/stack.svg#logo_yt");
+  mask-image: url("../../icons/stack.svg#logo-yt");
   mask-size: 24px auto;
 }
 
 .social-list__link--tg {
-  mask-image: url("../../icons/stack.svg#logo_tg");
+  mask-image: url("../../icons/stack.svg#logo-tg");
   mask-size: auto 17px;
 }
 
 .social-list__link--vk {
-  mask-image: url("../../icons/stack.svg#logo_vk");
+  mask-image: url("../../icons/stack.svg#logo-vk");
   mask-size: auto 17px;
 }

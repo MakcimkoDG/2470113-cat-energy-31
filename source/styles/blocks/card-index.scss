@@ -7,7 +7,7 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    padding: 91px 63px 53px 53px;
+    padding: 77px 63px 53px 53px;
     grid-template-columns: 1fr 200px;
     gap: 0 53px;
   }
@@ -15,7 +15,7 @@
   @media (min-width: $desktop-width) {
     width: 50%;
     grid-template-columns: 100px 1fr;
-    padding: 47px 52px 55px;
+    padding: 45px 52px 55px;
     gap: 0 62px;
   }
 }
@@ -36,6 +36,7 @@
     margin-left: auto;
     grid-column: 2/3;
     grid-row: 1/5;
+    margin-top: 15px;
   }
 
   @media (min-width: $desktop-width) {
@@ -45,6 +46,7 @@
     z-index: 1;
     grid-column: 1/2;
     margin-bottom: 39px;
+    margin-top: 0;
   }
 }
 
@@ -55,7 +57,7 @@
   height: 50px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../icons/stack.svg#cat_slim");
+  background-image: url("../../icons/stack.svg#cat-slim");
   z-index: 2;
   position: absolute;
   top: 21px;
@@ -84,7 +86,7 @@
   height: 28px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../../icons/stack.svg#cat_pro"),;
+  background-image: url("../../icons/stack.svg#cat-pro"),;
   z-index: 2;
   position: absolute;
   top: 35px;
@@ -136,7 +138,7 @@
   @include font-default;
   margin: 0;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   grid-column: 1/-1;
   width: 100%;
   color: $font-color-primary;
@@ -148,7 +150,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
     grid-column: 1/-1;
   }
 }
@@ -195,7 +197,7 @@
   content: "";
   width: 24px;
   height: 12px;
-  background-image: url("../../icons/stack.svg#icon_arrow");
+  background-image: url("../../icons/stack.svg#icon-arrow");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;

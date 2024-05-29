@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page page--catalog" lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -13,24 +13,24 @@
   <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 </head>
 
-<body>
-  <div class="page page--catalog">
-    <header class="page__header header" data-test="header">
+<body class="page__body body">
+  <div>
+    <header class="body__header header" data-test="header">
       <div class="header__container logo-container">
         <a class="logo-container__logo logo logo--pic" href="index.html">
           <span class="visually-hidden">Логотип Cat Energy</span>
           <picture class="logo__pic">
-            <source media="(min-width: 1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo_desktop.svg">
-            <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo_tablet.svg">
-            <img width="33" height="38" src="images/logo_mobile.svg" alt="Логотип Cat Energy">
+            <source media="(min-width: 1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-pic-desktop.svg">
+            <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-pic-tablet.svg">
+            <img width="33" height="38" src="images/logo-pic-mobile.svg" alt="Логотип Cat Energy">
           </picture>
         </a>
         <a class="logo-container__logo logo logo--text" href="index.html">
           <span class="visually-hidden">Логотип Cat Energy</span>
           <picture class="logo__text">
-            <source media="(min-width: 1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo.svg">
-            <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo.svg">
-            <img width="101" height="18" src="images/logo.svg" alt="Логотип Cat Energy">
+            <source media="(min-width: 1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-text-desktop.svg">
+            <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-text-tablet.svg">
+            <img width="101" height="18" src="images/logo-text-mobile.svg" alt="Логотип Cat Energy">
           </picture>
         </a>
         <button class="logo-container__toggle logo-container__toggle--closed" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -43,7 +43,7 @@
         </ul>
       </nav>
     </header>
-    <main class="page__content page-content">
+    <main class="body__content page-content">
       <section class="catalog" data-test="catalog">
         <h1 class="catalog__title section-title section-title--l">Каталог продукции</h1>
         <h2 class="visually-hidden">Каталог</h2>
@@ -52,7 +52,7 @@
             <a class="catalog-item__image-link" href="chicken-500.html">
               <picture class="catalog-item__image">
                 <source media="(min-width: 768px)" width="161" height="172" type="image/png" srcset="images/catalog/chicken-500.png 1x, images/catalog/chicken-500.png 2x">
-                <img width="68" height="86" src="images/catalog/chicken-500.png" srcset="images/catalog/chicken-500.png 2x" alt="Банка питания с курицей 500г">
+                <img width="68" height="86" src="images/catalog/chicken-500-mobile.png" srcset="images/catalog/chicken-500-mobile.png 2x" alt="Банка питания с курицей 500г">
               </picture>
             </a>
             <h3 class="catalog-item__title"><a class="catalog-item__link" href="chicken-500.html"><span>Cat Energy PRO</span><span>500 г</span></a></h3>
@@ -70,7 +70,7 @@
               <picture class="catalog-item__image">
                 <source media="(min-width: 1440px)" width="172" height="196" type="image/png" srcset="images/catalog/chicken-1000.png 1x, images/catalog/chicken-1000.png 2x">
                 <source media="(min-width: 768px)" width="168" height="206" type="image/png" srcset="images/catalog/chicken-1000.png 1x, images/catalog/chicken-1000.png 2x">
-                <img width="84" height="100" src="images/catalog/chicken-1000.png" srcset="images/catalog/chicken-1000.png 2x" alt="Банка питания с курицей 1000г">
+                <img width="84" height="100" src="images/catalog/chicken-1000-mobile.png" srcset="images/catalog/chicken-1000-mobile.png 2x" alt="Банка питания с курицей 1000г">
               </picture>
             </a>
             <h3 class="catalog-item__title"><a class="catalog-item__link" href="chicken-1000.html"><span>Cat Energy PRO</span><span>1000 г</span></a></h3>
@@ -87,7 +87,7 @@
             <a class="catalog-item__image-link" href="fish-500.html">
               <picture class="catalog-item__image">
                 <source media="(min-width: 768px)" width="163" height="174" type="image/png" srcset="images/catalog/fish-500.png 1x, images/catalog/fish-500.png 2x">
-                <img width="68" height="78" src="images/catalog/fish-500.png" srcset="/images/catalog/fish-500.png 2x" alt="Банка питания с рыбой 500г">
+                <img width="68" height="78" src="images/catalog/fish-500-mobile.png" srcset="images/catalog/fish-500-mobile.png 2x" alt="Банка питания с рыбой 500г">
               </picture>
             </a>
             <h3 class="catalog-item__title"><a class="catalog-item__link" href="fish-500.html"><span>Cat Energy PRO</span><span>500 г</span></a></h3>
@@ -103,9 +103,9 @@
           <li class="catalog__item catalog-item">
             <a class="catalog-item__image-link" href="fish-1000.html">
               <picture class="catalog-item__image">
-                <source media="(min-width: 1440px)" width="172" height="196" type="image/png" srcset="/images/catalog/fish-1000.png 1x, /images/catalog/fish-1000.png 2x">
+                <source media="(min-width: 1440px)" width="172" height="196" type="image/png" srcset="images/catalog/fish-1000.png 1x, images/catalog/fish-1000.png 2x">
                 <source media="(min-width: 768px)" width="168" height="200" type="image/png" srcset="images/catalog/fish-1000.png 1x, images/catalog/fish-1000.png 2x">
-                <img width="84" height="100" src="images/catalog/fish-1000.png" srcset="images/catalog/fish-1000.png 2x" alt="Банка питания с рыбой 1000г">
+                <img width="84" height="100" src="images/catalog/fish-1000-mobile.png" srcset="images/catalog/fish-1000-mobile.png 2x" alt="Банка питания с рыбой 1000г">
               </picture>
             </a>
             <h3 class="catalog-item__title"><a class="catalog-item__link" href="fish-1000.html"><span>Cat Energy PRO</span><span>1000 г</span></a></h3>
@@ -121,8 +121,8 @@
           <li class="catalog__item catalog-item">
             <a class="catalog-item__image-link" href="buckwheat-500.html">
               <picture class="catalog-item__image">
-                <source media="(min-width: 768px)" width="161" height="171" type="image/png" srcset="/images/catalog/buckwheat-500.png 1x, /images/catalog/buckwheat-500.png 2x">
-                <img width="68" height="78" src="images/catalog/buckwheat-500.png" srcset="images/catalog/buckwheat-500.png 2x" alt="Банка питания с гречкой 500г">
+                <source media="(min-width: 768px)" width="161" height="171" type="image/png" srcset="images/catalog/buckwheat-500.png 1x, images/catalog/buckwheat-500.png 2x">
+                <img width="68" height="78" src="images/catalog/buckwheat-500-mobile.png" srcset="images/catalog/buckwheat-500-mobile.png 2x" alt="Банка питания с гречкой 500г">
               </picture>
             </a>
             <h3 class="catalog-item__title"><a class="catalog-item__link" href="buckwheat-500.html"><span>Cat Energy SLIM</span><span>500 г</span></a></h3>
@@ -140,7 +140,7 @@
               <picture class="catalog-item__image">
                 <source media="(min-width: 1440px)" width="172" height="196" type="image/png" srcset="images/catalog/buckwheat-1000.png 1x, images/catalog/buckwheat-1000.png 2x">
                 <source media="(min-width: 768px)" width="168" height="200" type="image/png" srcset="images/catalog/buckwheat-1000.png 1x, images/catalog/buckwheat-1000.png 2x">
-                <img width="84" height="100" src="images/catalog/buckwheat-1000.png" srcset="images/catalog/buckwheat-1000.png 2x" alt="Банка питания с гречкой 1000г">
+                <img width="84" height="100" src="images/catalog/buckwheat-1000-mobile.png" srcset="images/catalog/buckwheat-1000-mobile.png 2x" alt="Банка питания с гречкой 1000г">
               </picture>
             </a>
             <h3 class="catalog-item__title">
@@ -159,7 +159,7 @@
             <a class="catalog-item__image-link" href="rice-500.html">
               <picture class="catalog-item__image">
                 <source media="(min-width: 768px)" width="163" height="174" type="image/png" srcset="images/catalog/rice-500.png 1x, images/catalog/rice-500.png 2x">
-                <img width="72" height="84" src="images/catalog/rice-500.png" srcset="images/catalog/rice-500.png 2x" alt="Банка питания с рисом 500г">
+                <img width="72" height="84" src="images/catalog/rice-500-mobile.png" srcset="images/catalog/rice-500.png 2x" alt="Банка питания с рисом 500г">
               </picture>
             </a>
             <h3 class="catalog-item__title"><a class="catalog-item__link" href="rice-500.html"><span>Cat Energy SLIM</span><span>500 г</span></a></h3>
@@ -227,8 +227,13 @@
         </form>
       </section>
       <section class="contacts">
-        <div class="contacts__map">
-          <iframe src="https://yandex.ru/map-widget/v1/?ll=30.325618%2C59.936778&mode=whatshere&utm_campaign=b2bpromo&utm_medium=referral&utm_source=sidesection&whatshere%5Bpoint%5D=30.322875%2C59.938280&whatshere%5Bzoom%5D=16.22&z=16.22"></iframe>
+        <div class="contacts__map contacts-map">
+          <picture class="contacts-map__pic">
+            <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop.png">
+            <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet.png">
+            <img width="320" height="362" src="images/map-mobile.png">
+          </picture>
+          <iframe class="contacts-map__frame visually-hidden" src="https://yandex.ru/map-widget/v1/?ll=30.325618%2C59.936778&mode=whatshere&utm_campaign=b2bpromo&utm_medium=referral&utm_source=sidesection&whatshere%5Bpoint%5D=30.322875%2C59.938280&whatshere%5Bzoom%5D=16.22&z=16.22"></iframe>
         </div>
         <div class="contacts__container">
           <h2 class="contacts__title">Приглашаем<br>к сотрудничеству дилеров!</h2>
@@ -236,7 +241,7 @@
         </div>
       </section>
     </main>
-    <footer class="page__footer footer">
+    <footer class="body__footer footer">
       <div class="footer__container">
         <a class="footer__logo" href="index.html">
           <span class="visually-hidden">Логотип Cat Energy</span>
