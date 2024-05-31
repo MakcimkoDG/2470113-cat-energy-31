@@ -1,6 +1,7 @@
 .section-title {
   font-family: $secondary-font;
   font-weight: 400;
+  position: relative;
 
   &--sm {
     font-size: 24px;
@@ -46,4 +47,34 @@
       line-height: 60px;
     }
   }
+}
+
+.section-title--sm span {
+  padding: 0 40px 0 20px;
+  z-index: 2;
+  background-color: $primary-color;
+  white-space: nowrap;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+    margin-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: calc(50% - 650px);
+    transform: translateX(-50%);
+  }
+}
+
+.section-title--sm::after {
+  content: "";
+  height: 0;
+  border-bottom: 2px solid $secondary-color;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 100%;
+  z-index: -1;
+  transform: translateY(-50%);
 }
