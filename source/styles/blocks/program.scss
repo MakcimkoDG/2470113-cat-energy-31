@@ -1,0 +1,38 @@
+.program {
+  padding: 0;
+}
+
+.program__title {
+  padding: 0 20px;
+}
+
+.program__description {
+  @include title;
+  margin-bottom: 39px;
+  padding: 0 20px;
+}
+
+.program__form {
+  margin: 0;
+  padding: 0;
+}
+
+.program-form__cat-info {
+  margin: 0;
+  border: none;
+  padding: 0 20px 24px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.program-form__aim {
+  margin: 0;
+  border: none;
+  padding: 22px 20px 19px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.program-form__owner {
+  margin: 0;
+  border: none;
+  padding: 26px 0 24px;
+}
