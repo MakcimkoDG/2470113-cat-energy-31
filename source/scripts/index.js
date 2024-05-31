@@ -5,6 +5,7 @@ const menu = document.querySelector ('.navigation__list');
 menu.classList.add('navigation__list--hidden');
 toggle.onclick = function() {
   menu.classList.toggle ('navigation__list--hidden');
+  menu.classList.toggle ('navigation__list--visible');
   toggle.classList.toggle ('logo-container__toggle--closed');
   toggle.classList.toggle ('logo-container__toggle--opened');
 };

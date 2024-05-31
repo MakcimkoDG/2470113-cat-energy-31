@@ -5,7 +5,7 @@
   position: relative;
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    max-width: $desktop-width;
     margin: 0 auto;
   }
 }
