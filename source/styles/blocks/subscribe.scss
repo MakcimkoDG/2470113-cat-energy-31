@@ -54,6 +54,7 @@
   margin: 0;
   margin-bottom: 24px;
   max-width: $desktop-width;
+  box-sizing: border-box;
 
 
   @media (min-width: $tablet-width) {
