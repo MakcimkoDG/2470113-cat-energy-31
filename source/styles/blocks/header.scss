@@ -17,14 +17,8 @@ header {
   @media (min-width: $desktop-width) {
     padding: 55px 110px;
     margin: 0 auto;
+    width: $desktop-width;
+    box-sizing: border-box;
   }
 }
 
-.page--index .header {
-  @media (min-width: $desktop-width) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    background-color: transparent;
-  }
-}
