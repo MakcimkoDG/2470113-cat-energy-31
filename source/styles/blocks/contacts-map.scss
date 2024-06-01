@@ -1,11 +1,10 @@
 .contacts-map__pic {
   display: flex;
   justify-content: center;
-  width: 100%;
-  position: relative;
+  max-width: 100%;
 
   @media (min-width: $desktop-width) {
-    max-width: $desktop-width;
+    max-width: 100%;
     margin: 0 auto;
   }
 }

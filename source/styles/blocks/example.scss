@@ -8,6 +8,7 @@
 
   @media (min-width: $desktop-width) {
     background: linear-gradient(to bottom, $primary-color 135px, $background-color-primary 135px, $background-color-primary 100%);
+    overflow-x: hidden;
   }
 }
 
