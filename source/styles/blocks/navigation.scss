@@ -4,7 +4,6 @@
   list-style: none;
   flex-direction: column;
   margin: 0;
-  margin-left: -20px;
   padding: 0;
   display: flex;
   z-index: 3;
@@ -35,6 +34,7 @@
 
 .navigation__list--visible {
   position: absolute;
+  margin-left: -20px;
 }
 
 .navigation__item {
